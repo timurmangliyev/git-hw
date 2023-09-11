@@ -1,0 +1,41 @@
+body{background-color:bisque;}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: brown;
+}
+p {
+    color:blue
+}
+
+h2 {
+    color: brown;
+}
+
+label {
+    display: block;
+    align-self: auto;
+}
+li {
+    font-size: 25px;
+    transition: 200ms;
+}
+li:hover {
+    font-size: 30px;
+    color:red;
+    font-weight: bold;
+}
+li:last-child {
+    color:brown
+}
+li:first-child {
+    color:blue
+}
+:nth-child(3) {
+    color:blueviolet
+}
+:nth-child(3n+1) {
+    color:rgb(6, 89, 46)
+}
+.month {
+    color: blue
+}

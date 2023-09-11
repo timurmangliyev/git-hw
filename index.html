@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой первый сайт - Резюме</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Манглиев Тимур Бахрамович</h1>
+    <img src="./photo_2022-11-11_16-50-22.jpg" alt="Mangliyev Timur" width="200px" align="right">
+    <h2>Персональные данные:</h2>
+    <p>Телефон: +998 99 539 90 90</p>
+    <div id="test">TEST</div>
+    <p>Электронная почта: mtb@integral-st.ch</p>
+    <p>Гражданство: Туркменистан</p>
+    <p>Место проживания: г. Ташкент, Узбекистан</p>
+    <p>Образование: Высшее</p>
+    <h2>Опыт работы:</h2>
+    <p>Период работы: Апрель 2019 — настоящее время</p>
+    <p>Должность: Координатор по Узбекистану</p>
+    <p>Организация: Integral Group (Дубай, ОАЭ-Ташкент, Узбекистан)</p>
+    <p>Обязанности:</p>
+    <li>Управление подразделением, персоналом</li>
+    <li>Ведение хозяйственной деятельности подразделения</li>
+    <li>Эффективное распределение планов, задач между менеджерами</li>
+    <h2>Знание языков:</h2>
+    <ol>
+        <li>русский</li>
+        <li>английский</li>
+        <li>узбекский</li>
+        <li>русский</li>
+        <li>английский</li>
+        <li>узбекский</li>
+        <li>русский</li>
+        <li>английский</li>
+        <li>узбекский</li>
+    </ol>
+
+    <h2>Формы</h2>
+    <form action="#">
+        <label for="">
+            Имя:
+            <input type="text">
+        </label>
+        <label for="#">
+            Номер телефона:
+            <input type="tel">
+        </label>
+        <label for="#">
+            Email:
+            <input type="email">
+        </label>
+        <label for="#">
+            Тема обращения:
+            <select name="Тема обращения:" id="">
+                <option value="1">Новый студент</option>
+                <option value="2">Жалоба</option>
+                <option value="3">Предложение</option>
+                <option value="4">Отзыв</option>
+                <option value="5">Признательность</option>
+
+            </select>
+
+            <a href="./contacts.html">
+                Перейти и написать мне
+            </a>
+
+        </label>
+        <label for="#">
+            Поле для ввода сообщения:
+            <textarea name=" Поле для ввода сообщения:" id="" cols="15" rows="5"></textarea>
+        </label>
+    </form>
+
+
+    <table border="2">
+        <tr>
+            <td id="month">
+                September
+
+            </td>
+        </tr>
+        <th>
+            <tr>
+                <td>Monday</td>
+                <td>Tuesday</td>
+                <td>Wednesday</td>
+                <td>Thursday</td>
+                <td>Friday</td>
+                <td>Saturday</td>
+                <td>Sunday</td>
+            </tr>
+        </th>
+        <thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+        </tbody>
+
+        </thead>
+        <thead>
+        <tbody>
+            <tr>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+            </tr>
+        </tbody>
+
+        </thead>
+
+    </table>
+
+    <h2>Отправка СМС</h2>
+    <form action="https://api.tehnikum.school/sms/sms.php" method="post">
+        <label>
+            Номер телефона:
+            <input type="tel" name="sms_phone">
+        </label>
+        <label>
+            Текст СМС:
+            <input type="text" name="sms_text">
+        </label>
+        <input type="hidden" name="token" value="Students:1234567">
+        <input type="submit" value="Отправить СМС">
+
+
+
+    </form>
+</body>
+
+</html>
