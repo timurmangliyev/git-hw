@@ -1,7 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,800;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
 body {
 color:  #3D3D3F;
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-style: normal;
+font-family:'Rubik-Medium';
 font-weight: 500;
-line-height: normal;
+background: linear-gradient(114deg, rgba(239, 239, 239, 0.00) -2.01%, rgba(239, 239, 239, 0.20) 103.74%);
+backdrop-filter: blur(388.5px);
+}
+
+header {
+    display: flex;
+    padding: 71px 138px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-direction:column;
+    font-family: DM Sans;
+    font-size: 14px;
+}
+
+
+h1 {
+    font-family: 'Rubik';
+    font-size: 72px;
+    width: 515px;
+}
+
+.description {
+    width: 536px;
+}
+
+button {
+    border-radius: 5px;
+    background: #F35F2F;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 20px;
+}
+
+.smallbtn{
+    border-radius: 5px;
+    background: #F35F2F;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 20px;
+    padding: 12px 24px;
+    border: none;
+}
+
+
+#screen1 {
+    width: 626px;
+    display: flex;
+    flex-direction: row;
 }
